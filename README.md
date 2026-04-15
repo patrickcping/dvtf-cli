@@ -1,5 +1,14 @@
 # dvtf-pingctl
 
+> [!CAUTION]
+> ## ⚠️ This project is no longer maintained
+>
+> **`dvtf-pingctl` has been superseded and is archived.**
+>
+> This tool has been replaced by the DaVinci capability built into the [PingOne Terraform provider](https://registry.terraform.io/providers/pingidentity/pingone/latest), accessible via the **[`pingcli-plugin-terraformer`](https://github.com/pingidentity/pingcli-plugin-terraformer)** plugin for the [Ping CLI](https://github.com/pingidentity/pingcli).
+>
+> Please migrate to that tooling. No further updates will be made to this repository.
+
 A simple CLI tool to assist HCL generation and debugging with using the [DaVinci Terraform provider](https://registry.terraform.io/providers/pingidentity/davinci/latest).
 
 * Supported DaVinci Terraform provider version: `v0.5.0+`

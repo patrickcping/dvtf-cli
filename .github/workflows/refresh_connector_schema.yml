@@ -1,8 +1,7 @@
 name: Refresh Connector Schema
+# This project is archived and no longer maintained. Scheduled trigger removed.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 13 1 * *'
 jobs:
   generate:
     name: generate schema
